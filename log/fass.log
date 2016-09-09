@@ -1,0 +1,28 @@
+Fri Sep  9 16:34:26 2016 [FASS][I]: Starting Fass 0.0
+----------------------------------------
+     Fass Configuration File      
+----------------------------------------
+/var/lib/one/fass/etc/fassd.conf 
+----------------------------------------
+Fri Sep  9 16:34:26 2016 [CONF][I]: Reading configuration...
+> fass.log_level=5
+> fass.manager_timer=70
+> fass.one_endpoint=localhost
+> fass.one_port=2636
+> rpcm.keepalive_max_conn=30
+> rpcm.keepalive_timeout=15
+> rpcm.listen_address=0.0.0.0
+> rpcm.listen_port=2635
+> rpcm.log_call_format=Req:%i UID:%u %m invoked %l
+> rpcm.max_conn=15
+> rpcm.max_conn_backlog=15
+> rpcm.message_size(default)=1073741824
+> rpcm.rpc_log=1
+> rpcm.timeout=15
+
+Fri Sep  9 16:34:26 2016 [RPCM][I]: Starting RPC Manager...
+Fri Sep  9 16:34:26 2016 [RPCM][I]: Starting XML-RPC server, port 2635 ...
+Fri Sep  9 16:34:41 2016 [RPCM][D]: Req:6336 UID:0 SystemVersion invoked 
+Fri Sep  9 16:34:41 2016 [RPCM][D]: Req:6336 UID:0 SystemVersion result SUCCESS, "Fass 0.0"
+Fri Sep  9 16:34:52 2016 [RPCM][D]: Req:528 UID:1831372176 piripicchiolo invoked , "pluto"
+Fri Sep  9 16:34:52 2016 [RPCM][D]: Req:528 UID:1831372176 piripicchiolo result SUCCESS, "Default!"
